@@ -1,0 +1,30 @@
+#contact-block {
+  #ctu-enquiry-block {
+    .elementor-form-fields-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      .elementor-field-group-name,
+      .elementor-field-group-contact_number,
+      .elementor-field-group-email,
+      .elementor-field-group-housing_type {
+        flex: 0 0 100%;
+      }
+      @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .elementor-field-group-name,
+        .elementor-field-group-contact_number,
+        .elementor-field-group-email,
+        .elementor-field-group-housing_type {
+          flex: 0 0 calc(50% - 15px);
+        }
+      }
+    }
+  }
+  p {
+    a {
+      color: var(--e-global-color-text) !important;
+    }
+  }
+}

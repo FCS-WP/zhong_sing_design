@@ -1,0 +1,38 @@
+body {
+  p {
+    margin: 0;
+  }
+  .elementor-button {
+    .elementor-button-content-wrapper {
+      gap: 14px !important;
+      .elementor-button-icon {
+        display: flex;
+        i {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  select {
+    option {
+      background-color: var(--e-global-color-text);
+      border: 1px solid var(--e-global-color-primary);
+    }
+  }
+}
+
+.box-shadow-0 {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.box-shadow-1 {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.box-shadow-2 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

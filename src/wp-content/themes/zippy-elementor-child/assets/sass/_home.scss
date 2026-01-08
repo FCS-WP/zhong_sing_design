@@ -1,0 +1,39 @@
+#hp-quotation-block {
+  .elementor-form-fields-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    .elementor-field-group-name,
+    .elementor-field-group-contact_number,
+    .elementor-field-group-email,
+    .elementor-field-group-housing_type {
+      flex: 0 0 100%;
+    }
+    @include tablet {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      .elementor-field-group-name,
+      .elementor-field-group-contact_number,
+      .elementor-field-group-email,
+      .elementor-field-group-housing_type {
+        flex: 0 0 calc(50% - 15px);
+      }
+    }
+  }
+}
+
+#hp-mb-counter-block {
+  .elementor-widget-counter {
+    .elementor-counter-title {
+      text-align: center;
+    }
+  }
+}
+
+#hp-counter-block {
+  .counter {
+    .elementor-counter-title {
+      min-height: 2lh;
+    }
+  }
+}
