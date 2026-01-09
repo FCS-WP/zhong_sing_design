@@ -1,0 +1,21 @@
+#header-block {
+  .elementor-button-icon-qty {
+    right: -10px;
+    top: -5px;
+    @include tablet {
+      right: -10px;
+      top: -5px;
+    }
+    @include desktop {
+      right: -10px;
+      top: 5px;
+    }
+  }
+  .jkit-hamburger-menu,
+  .jkit-close-menu {
+    &:hover,
+    &:focus {
+      background: none !important;
+    }
+  }
+}

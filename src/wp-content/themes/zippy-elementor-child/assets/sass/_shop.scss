@@ -1,0 +1,25 @@
+#shop-block {
+  .jkit-product-categories {
+    .jkit-product-category {
+      margin: 25px 0px !important;
+    }
+  }
+  .woocommerce-result-count {
+    margin: 0px;
+  }
+  .woocommerce-ordering {
+    select {
+      border-color: #666666ad;
+      color: #666666d6;
+      option {
+        background-color: var(--e-global-color-primary);
+      }
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+  .added_to_cart {
+    display: none;
+  }
+}
