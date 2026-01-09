@@ -11,6 +11,12 @@
     select {
       border-color: #666666ad;
       color: #666666d6;
+      option {
+        background-color: var(--e-global-color-primary);
+      }
+      &:focus-visible {
+        outline: none;
+      }
     }
   }
   .added_to_cart {

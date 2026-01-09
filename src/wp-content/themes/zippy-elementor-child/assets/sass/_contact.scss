@@ -1,4 +1,13 @@
 #contact-block {
+  #ctu-email-block {
+    .elementor-widget-text-editor {
+      p {
+        a {
+          word-break: break-all;
+        }
+      }
+    }
+  }
   #ctu-enquiry-block {
     .elementor-form-fields-wrapper {
       display: flex;
